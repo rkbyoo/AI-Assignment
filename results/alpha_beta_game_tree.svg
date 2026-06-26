@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" font-family="Arial, sans-serif">
+<rect width="960" height="620" fill="#f8fafc"/>
+<text x="480" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Alpha-Beta Pruning Game Tree</text>
+<rect x="740" y="55" width="200" height="80" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="754" y1="75" x2="790" y2="75" stroke="#1d4ed8" stroke-width="2"/>
+<text x="798" y="79" font-size="12" fill="#334155">Normal edge</text>
+<line x1="754" y1="100" x2="790" y2="100" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="798" y="104" font-size="12" fill="#334155">Pruned edge</text>
+<polygon points="754,127 762,113 770,127" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="778" y="127" font-size="12" fill="#334155">MAX node</text>
+<line x1="465" y1="128" x2="245" y2="214" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="245" y1="258" x2="135" y2="344" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="135" y1="388" x2="80" y2="474" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="135" y1="388" x2="190" y2="474" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="245" y1="258" x2="355" y2="344" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="355" y1="388" x2="300" y2="474" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="355" y1="388" x2="410" y2="474" stroke="#9ca3af" stroke-width="1.8" stroke-dasharray="6 4"/>
+<rect x="358.5" y="422" width="48" height="16" rx="3" fill="#fef9c3"/>
+<text x="382.5" y="434" text-anchor="middle" font-size="9" font-weight="bold" fill="#b45309">PRUNED</text>
+<line x1="465" y1="128" x2="685" y2="214" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="685" y1="258" x2="575" y2="344" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="575" y1="388" x2="520" y2="474" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="575" y1="388" x2="630" y2="474" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="685" y1="258" x2="795" y2="344" stroke="#9ca3af" stroke-width="1.8" stroke-dasharray="6 4"/>
+<rect x="716" y="292" width="48" height="16" rx="3" fill="#fef9c3"/>
+<text x="740" y="304" text-anchor="middle" font-size="9" font-weight="bold" fill="#b45309">PRUNED</text>
+<line x1="795" y1="388" x2="740" y2="474" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="795" y1="388" x2="850" y2="474" stroke="#1d4ed8" stroke-width="2"/>
+<rect x="45" y="474" width="70" height="32" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+<text x="80" y="488" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">L1</text>
+<text x="80" y="501" text-anchor="middle" font-size="9" fill="#15803d">Val: 3</text>
+<rect x="155" y="474" width="70" height="32" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+<text x="190" y="488" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">L2</text>
+<text x="190" y="501" text-anchor="middle" font-size="9" fill="#15803d">Val: 5</text>
+<rect x="265" y="474" width="70" height="32" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+<text x="300" y="488" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">L3</text>
+<text x="300" y="501" text-anchor="middle" font-size="9" fill="#15803d">Val: 6</text>
+<rect x="375" y="474" width="70" height="32" rx="5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="410" y="488" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">L4</text>
+<text x="410" y="501" text-anchor="middle" font-size="9" fill="#64748b">Val: 9</text>
+<rect x="485" y="474" width="70" height="32" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+<text x="520" y="488" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">L5</text>
+<text x="520" y="501" text-anchor="middle" font-size="9" fill="#15803d">Val: 1</text>
+<rect x="595" y="474" width="70" height="32" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+<text x="630" y="488" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">L6</text>
+<text x="630" y="501" text-anchor="middle" font-size="9" fill="#15803d">Val: 2</text>
+<rect x="705" y="474" width="70" height="32" rx="5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="740" y="488" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">L7</text>
+<text x="740" y="501" text-anchor="middle" font-size="9" fill="#64748b">Val: 0</text>
+<rect x="815" y="474" width="70" height="32" rx="5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="850" y="488" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b">L8</text>
+<text x="850" y="501" text-anchor="middle" font-size="9" fill="#64748b">Val: -2</text>
+<polygon points="135,330  105,378  165,378" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text text-anchor="middle" font-size="10" fill="#1e293b">
+  <tspan x="135" dy="0" y="352" font-weight="bold">C1 (MAX)</tspan>
+  <tspan x="135" dy="13">Val: 5</tspan>
+  <tspan x="135" dy="12">α:5 β:∞</tspan>
+</text>
+<polygon points="355,330  325,378  385,378" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text text-anchor="middle" font-size="10" fill="#1e293b">
+  <tspan x="355" dy="0" y="352" font-weight="bold">C2 (MAX)</tspan>
+  <tspan x="355" dy="13">Val: 6</tspan>
+  <tspan x="355" dy="12">α:6 β:5</tspan>
+</text>
+<polygon points="575,330  545,378  605,378" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text text-anchor="middle" font-size="10" fill="#1e293b">
+  <tspan x="575" dy="0" y="352" font-weight="bold">C3 (MAX)</tspan>
+  <tspan x="575" dy="13">Val: 2</tspan>
+  <tspan x="575" dy="12">α:5 β:∞</tspan>
+</text>
+<polygon points="795,330  765,378  825,378" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text text-anchor="middle" font-size="10" fill="#1e293b">
+  <tspan x="795" dy="0" y="352" font-weight="bold">C4 (MAX)</tspan>
+  <tspan x="795" dy="13">Val: ?</tspan>
+  <tspan x="795" dy="12">α:-∞ β:∞</tspan>
+</text>
+<polygon points="245,260  215,212  275,212" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+<text text-anchor="middle" font-size="10" fill="#1e293b">
+  <tspan x="245" dy="0" y="222" font-weight="bold">B1 (MIN)</tspan>
+  <tspan x="245" dy="13">Val: 5</tspan>
+  <tspan x="245" dy="12">α:-∞ β:5</tspan>
+</text>
+<polygon points="685,260  655,212  715,212" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+<text text-anchor="middle" font-size="10" fill="#1e293b">
+  <tspan x="685" dy="0" y="222" font-weight="bold">B2 (MIN)</tspan>
+  <tspan x="685" dy="13">Val: 2</tspan>
+  <tspan x="685" dy="12">α:5 β:2</tspan>
+</text>
+<polygon points="465,70  435,118  495,118" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text text-anchor="middle" font-size="10" fill="#1e293b">
+  <tspan x="465" dy="0" y="92" font-weight="bold">Root (MAX)</tspan>
+  <tspan x="465" dy="13">Val: 5</tspan>
+  <tspan x="465" dy="12">α:5 β:∞</tspan>
+</text>
+</svg>
