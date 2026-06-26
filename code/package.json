@@ -1,0 +1,17 @@
+{
+  "name": "ai-assignment",
+  "version": "1.0.0",
+  "description": "AI Assignment — Alpha-Beta Pruning, HMM Viterbi Algorithm, and Tic-Tac-Toe with Minimax AI (JavaScript)",
+  "main": "code/ticTacToe.js",
+  "scripts": {
+    "alpha-beta": "node code/alphaBetaPruning.js",
+    "hmm": "node code/hmmViterbi.js",
+    "tictactoe": "node code/ticTacToe.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "ISC"
+}
+
