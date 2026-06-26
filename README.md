@@ -1,8 +1,8 @@
 # AI Assignment
 
-> **Submitted by:** Rakib Hussain
-> **Roll Number:** 220710007047
-> **Semester:** 8
+**Submitted by:** Rakib Hussain
+**Roll Number:** 220710007047
+**Semester:** 8
 
 ---
 
