@@ -6,6 +6,29 @@
 
 ---
 
+## Quick Run Commands
+
+```bash
+node code/alphaBetaPruning.js
+node code/hmmViterbi.js
+node code/ticTacToe.js
+```
+
+---
+
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Requirements](#requirements)
+- [How to Run](#how-to-run)
+  - [1. Alpha-Beta Pruning](#1-alpha-beta-pruning)
+  - [2. Hidden Markov Model — Viterbi Algorithm](#2-hidden-markov-model--viterbi-algorithm)
+  - [3. Tic-Tac-Toe with Minimax AI](#3-tic-tac-toe-with-minimax-ai)
+- [Algorithm Documentation](#algorithm-documentation)
+- [Technical Summary](#technical-summary)
+
+---
+
 This project contains JavaScript (Node.js) implementations of three fundamental Artificial Intelligence algorithms:
 
 1. **Alpha-Beta Pruning** — game tree optimization
@@ -82,6 +105,8 @@ Open this SVG in any web browser (Chrome, Edge, Firefox) to view:
 - Leaf values, alpha (α) and beta (β) at each node
 - Pruned edges shown as dashed grey lines with a **PRUNED** badge
 
+📖 [**Detailed Documentation → Alpha-Beta Pruning**](docs/alphaBetaPruning.md)
+
 ---
 
 ### 2. Hidden Markov Model — Viterbi Algorithm
@@ -116,6 +141,8 @@ Open this SVG in any web browser to view:
 - X-axis: time steps with observed events (Walk, Walk, Shop, Clean)
 - Y-axis: probability values in clean decimal format
 - Data point labels showing exact probabilities
+
+📖 [**Detailed Documentation → HMM Viterbi Algorithm**](docs/hmmViterbi.md)
 
 ---
 
@@ -168,6 +195,8 @@ AI plays at row 1, column 1
 
 > This module is interactive and does not generate any output file.
 
+📖 [**Detailed Documentation → Tic-Tac-Toe Minimax AI**](docs/ticTacToe.md)
+
 ---
 
 ## Algorithm Documentation
@@ -176,9 +205,9 @@ Detailed documentation for each algorithm is in the `docs/` folder:
 
 | File | Contents |
 |---|---|
-| `docs/alphaBetaPruning.md` | Pruning logic, worked example, tree structure, complexity |
-| `docs/hmmViterbi.md` | HMM model, Viterbi phases, worked example with probabilities |
-| `docs/ticTacToe.md` | Minimax algorithm, scoring, game flow, why AI never loses |
+| [`docs/alphaBetaPruning.md`](docs/alphaBetaPruning.md) | Pruning logic, worked example, tree structure, complexity |
+| [`docs/hmmViterbi.md`](docs/hmmViterbi.md) | HMM model, Viterbi phases, worked example with probabilities |
+| [`docs/ticTacToe.md`](docs/ticTacToe.md) | Minimax algorithm, scoring, game flow, why AI never loses |
 
 ---
 
